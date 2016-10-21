@@ -17,6 +17,16 @@
       "required": true,
       "comments": "Users password"
     },
+    "salt": {
+      "type": "string",
+      "required": true,
+      "comments": "Salt for user's password"
+    },
+    "hash": {
+      "type": "string",
+      "required": true,
+      "comments": "Hash for user's password"
+    }
     "emailVerified": {
       "type": "boolean",
       "required": true,
